@@ -1,0 +1,28 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+.img-container{
+	text-align: center;
+}
+.img-container, img{
+	max-width: 100%;
+}
+@media (max-width: 375px){
+	body{
+		background-color: #6C1CE3;
+	}
+}
+@media (min-width: 376px) and (max-width: 667px){
+	body{
+		background-color: #D2E815;
+	}
+}
+@media (max-width: 667px) {
+	body{
+		background-color: #F70808;
+	}
+}
